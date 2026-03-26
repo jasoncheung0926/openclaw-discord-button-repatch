@@ -87,10 +87,10 @@ dist/                           Packaged .skill artifact
 - Treat this repo as a repeatable hotfix toolkit, not a substitute for upstreaming proper source-level fixes.
 
 ## Packaging the skill
-If you edit the skill and want to rebuild the `.skill` artifact:
+If you edit the skill and want to rebuild the `.skill` artifact, run the `package_skill.py` script from your local OpenClaw installation, for example:
 
 ```bash
-python3 /home/jcheung/.npm-global/lib/node_modules/openclaw/skills/skill-creator/scripts/package_skill.py \
+python3 <path-to-openclaw>/skills/skill-creator/scripts/package_skill.py \
   skill/discord-button-repatch \
   dist
 ```
